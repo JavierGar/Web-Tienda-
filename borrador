@@ -1,0 +1,10 @@
+<?php
+echo"hieee";
+require_once('/tdiw/tdiw-h11/public_html/model/model.php');
+$BD = instanciaBD();
+$query= "INSERT INTO `sale` (`id`, `Total`, `usuario_sale`) VALUES (NULL, '341', 'Jowitronic');";
+mysqli_query($BD,$query);
+$result = mysqli_insert_id($BD);
+
+ echo"$result";
+?>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Entrar usuari i password"
+AuthUserFile /tdiw/tdiw-h11/public_html/.htpasswd
+Require user admin
